@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Lato Light', serif; /*a name to be used later*/
-    src: url('/fonts/Lato-Light.ttf'); /*URL to font*/
-}
-
 body {
-  font-family: 'Lato Light', serif;
+  font-family: 'Lato', serif;
   padding-top: 30px;
   color: #868e96;
 }
@@ -22,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato Light', serif;
+  font-family: 'Lato', serif;
   font-weight: 700;
   color: #343a40;
 }
@@ -44,7 +39,7 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Lato Light', serif;
+  font-family: 'Lato', serif;
   font-size: 1.35rem;
 }
 
