@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Lato Light'; /*a name to be used later*/
-    src: url('/fonts/Lato-Light.ttf'); /*URL to font*/
+    src: url('https://github.com/earmingol/earmingol.github.io/blob/main/fonts/Lato-Light.ttf?raw=true'); /*URL to font*/
 }
 
 body {
