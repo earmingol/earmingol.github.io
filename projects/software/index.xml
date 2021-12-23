@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>Docker container for single-cell analyses</title>
+      <link>https://earmingol.github.io/projects/software/sc-docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/projects/software/sc-docker/</guid>
+      <description>This Docker container includes:
+ Anaconda &amp;amp; Jupyter Python 3.8.8 scanpy cell2cell R 4.0.3 Seurat SeuratDisk Harmony CellChat  </description>
+    </item>
+    
+    <item>
       <title>Utility for facilitating the use of COBRApy</title>
       <link>https://earmingol.github.io/projects/software/cobra-utils/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
