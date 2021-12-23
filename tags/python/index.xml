@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Erick Armingol</title>
+    <link>https://earmingol.github.io/tags/python/</link>
+    <description>Recent content in Python on Erick Armingol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computational suite for studying cell-cell interactions and communication</title>
+      <link>https://earmingol.github.io/projects/software/cell2cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/projects/software/cell2cell/</guid>
+      <description>The suite cell2cell includes two main sub-tools:
+ The regular cell2cell, which includes the main approaches described in our review. Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve patterns of cell-cell communication across multiple cellular contexts (e.g., time points, disease states, cellular location, patients, etc.), as described in our pre-print.    A toy example using the under-the-hood methods of cell2cell is available here. This case allows personalizing the analyses in a higher level, but it may result harder to use.</description>
+    </item>
+    
+    <item>
+      <title>Utility for facilitating the use of COBRApy</title>
+      <link>https://earmingol.github.io/projects/software/cobra-utils/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/projects/software/cobra-utils/</guid>
+      <description>Tool to use together with COBRApy. The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.</description>
+    </item>
+    
+  </channel>
+</rss>

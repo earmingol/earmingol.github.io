@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Erick Armingol</title>
+    <link>https://earmingol.github.io/projects/research/</link>
+    <description>Recent content in Research on Erick Armingol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/projects/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cell-cell interactions and communication</title>
+      <link>https://earmingol.github.io/projects/research/ccis/</link>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/projects/research/ccis/</guid>
+      <description>In multicellular organisms, high-order organizations of cells are defined by their cell-cell interactions (CCIs). Cells constantly sense their microenvironment and can trigger intracellular changes depending on the information that they receive. These communicatory processes allow single cells to coordinate their gene expression, which further enables the coordination of a collective behavior of cells. Thus, functions and phenotypes of multicellular organizations are orchestrated by their CCIs. The main focus of my research is on generating novel approaches to infer CCIs to help decipher how phenotypes are associated and how they depend on these processes.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tensor factorization on Erick Armingol</title>
+    <link>https://earmingol.github.io/tags/tensor-factorization/</link>
+    <description>Recent content in tensor factorization on Erick Armingol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/tensor-factorization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context-aware deconvolution of cell-cell communication with Tensor-cell2cell</title>
+      <link>https://earmingol.github.io/publications/tensor/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/publications/tensor/</guid>
+      <description>Cell interactions determine phenotypes, and intercellular communication is shaped by cellular contexts such as disease state, organismal life stage, and tissue microenvironment. Single-cell technologies measure the molecules mediating cell-cell communication, and emerging computational tools can exploit these data to decipher intercellular communication. However, current methods either disregard cellular context or rely on simple pairwise comparisons between samples, thus limiting the ability to decipher complex cell-cell communication across multiple time points, levels of disease severity, or spatial contexts.</description>
+    </item>
+    
+    <item>
+      <title>Tensor-cell2cell: Desde la transcriptómica a entender cómo el contexto biológico afecta la comunicación intercelular</title>
+      <link>https://earmingol.github.io/publications/accdis-talk/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/publications/accdis-talk/</guid>
+      <description>Talk given in the ACCDiS Seminars about single-cell transcriptomics applied to understand chronic diseases   </description>
+    </item>
+    
+  </channel>
+</rss>
