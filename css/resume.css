@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Lato Light'; /*a name to be used later*/
+    src: url('/fonts/Lato-Light.ttf'); /*URL to font*/
+}
+
 body {
   font-family: 'Lato Light', serif;
   padding-top: 30px;
