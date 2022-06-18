@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="google-site-verification" content="rMNGy4C7lgebU7bm-apipgUla7RD9FkVTnbhYLW2-o8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Erick Armingol | Computational suite for studying cell-cell interactions and communication</title>
   <meta property="og:title" content="Erick Armingol | Computational suite for studying cell-cell interactions and communication" />
-  <meta property="og:image" content="https://earmingol.github.io/img/Presentation-Picture.jpg" />
+  <meta property="og:image" content="https://earmingol.github.io/img/Presentation-Picture-2022.jpeg" />
   <meta name="description" content="Computational suite implementing different methods to study cell-cell interactions from expression levels of genes/proteins">
   <meta property="og:description" content="Computational suite implementing different methods to study cell-cell interactions from expression levels of genes/proteins" />
   <meta name="author" content="Erick Armingol">
@@ -40,9 +41,10 @@
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
-    <span class="d-block d-lg-none">Erick Armingol</span>
+    <span class="d-block d-lg-none"><img class="img-fluid img-profile rounded-circle" src="/img/Presentation-Picture-2022.jpeg" alt="" width="60" height="60" border="0.1rem solid rgba(255, 255, 255, 0.2)">
+        &nbsp&nbspErick Armingol</span>
     <span class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/Presentation-Picture.jpg" alt="">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/Presentation-Picture-2022.jpeg" alt="">
     </span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,7 +132,7 @@
   <div class="my-auto">
     <h2 class="mb-0"><span class="text-primary">Computational suite for studying cell-cell interactions and communication</span></h2>
     <p><a href="https://pypi.org/project/cell2cell/"><img src="https://badge.fury.io/py/cell2cell.svg" alt="PyPI Version"></a></p>
-<p>The suite <em>cell2cell</em> includes two main sub-tools:</p>
+<h2 id="the-suite-cell2cell-includes-two-main-sub-tools">The suite <em>cell2cell</em> includes two main sub-tools:</h2>
 <ul>
 <li>The regular cell2cell, which includes the main approaches described in our <a href="https://www.nature.com/articles/s41576-020-00292-x">review</a>.</li>
 <li>Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve
@@ -156,19 +158,30 @@ body of <em>C. elegans</em></strong> is <a href="https://github.com/LewisLabUCSD
 <hr>
 <p><img src="https://github.com/earmingol/cell2cell/blob/master/LogoTensor.png?raw=true" alt="plot"></p>
 <ul>
-<li>A capsule containing jupyter notebooks for reproducing the results in the manuscript of Tensor-cell2cell  is <a href="https://doi.org/10.24433/CO.0051950.v1">available in codeocean.com</a>.
-It specifically contains analyses on datasets of <strong>COVID-19 and the embryonic development
-of <em>C. elegans</em></strong>, such as the evaluation of changes in
-cell-cell communication dependent on <a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v1.0/results.5f6a2e3f-70d2-4547-a1c2-7304335758d9/06-BALF-Tensor-Factorization.html">different severities of COVID-19</a>,
-and changes dependent on <a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v1.0/results.5f6a2e3f-70d2-4547-a1c2-7304335758d9/08-Celegans-Tensor-Factorization.html">multiple time points of the <em>C. elegans</em> development</a></li>
-<li><strong>A tutorial of running Tensor-cell2cell</strong> on a dataset of control and interferon-beta-treated PBMCs from 8 donors
-is <a href="https://github.com/earmingol/cell2cell/blob/master/examples/tensor_cell2cell/Tensor-cell2cell-PBMC.ipynb">available here</a></li>
+<li>Jupyter notebooks for reproducing the results in the manuscript of Tensor-cell2cell
+<a href="https://doi.org/10.24433/CO.0051950.v2">are available and can be run online in codeocean.com</a>.
+It specifically contains analyses on datasets of <strong>COVID-19, Autism Spectrum Disorders (ASD) and the embryonic development
+of <em>C. elegans</em></strong>. These analyses evaluate changes in
+cell-cell communication dependent on:
+<ul>
+<li><a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v2.0/results.5afea95c-aec4-455d-b06e-b0c12ef10df1/06-BALF-Tensor-Factorization.html">Different severities of COVID-19</a></li>
+<li><a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v2.0/results.5afea95c-aec4-455d-b06e-b0c12ef10df1/11-Brain-ASD-Tensor-Factorization.html">ASD condition of patients</a></li>
+<li><a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v2.0/results.5afea95c-aec4-455d-b06e-b0c12ef10df1/08-Celegans-Tensor-Factorization.html">Multiple time points of the <em>C. elegans</em> development</a></li>
+</ul>
+</li>
+<li><strong>Detailed tutorials for running Tensor-cell2cell and downstream analyses:</strong>
+<ul>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/01-Tensor-Factorization-ASD/">Obtaining patterns of cell-cell communication with Tensor-cell2cell</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/02-Factor-Specific-ASD/">Downstream analysis 1: Factor-specific analyses</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/03-GSEA-ASD/">Downstream analysis 2: Gene Set Enrichment Analysis</a></li>
+</ul>
+</li>
 <li><strong>Do you have precomputed communication scores?</strong> Re-use them as a prebuilt tensor as <a href="https://github.com/earmingol/cell2cell/blob/master/examples/tensor_cell2cell/Loading-PreBuiltTensor.ipynb">exemplified here</a>.
 This allows reusing previous tensors you built or even plugging in communication scores from other tools.</li>
 <li><strong>Run Tensor-cell2cell much faster!</strong> An example to perform the analysis using a <strong>Nvidia GPU</strong> is <a href="https://github.com/earmingol/cell2cell/blob/master/examples/tensor_cell2cell/GPU-Example.ipynb">available here</a></li>
 </ul>
 
-    <p>Project link: <a href="https://github.com/earmingol/cell2cell">https://github.com/earmingol/cell2cell</a></p>
+    <p>Project link: <a href="https://earmingol.github.io/cell2cell/">https://earmingol.github.io/cell2cell/</a></p>
     <ul class="tags">
     
       <li><a class="tag" href="/tags/python">Python</a></li>

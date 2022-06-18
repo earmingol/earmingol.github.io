@@ -13,8 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/projects/software/cell2cell/</guid>
-      <description>The suite cell2cell includes two main sub-tools:
- The regular cell2cell, which includes the main approaches described in our review. Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve patterns of cell-cell communication across multiple cellular contexts (e.g., time points, disease states, cellular location, patients, etc.), as described in our pre-print.    A toy example using the under-the-hood methods of cell2cell is available here. This case allows personalizing the analyses in a higher level, but it may result harder to use.</description>
+      <description>The suite cell2cell includes two main sub-tools:  The regular cell2cell, which includes the main approaches described in our review. Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve patterns of cell-cell communication across multiple cellular contexts (e.g., time points, disease states, cellular location, patients, etc.), as described in our pre-print.    A toy example using the under-the-hood methods of cell2cell is available here. This case allows personalizing the analyses in a higher level, but it may result harder to use.</description>
     </item>
     
     <item>
