@@ -10,10 +10,10 @@
     <item>
       <title>Context-aware deconvolution of cell-cell communication with Tensor-cell2cell</title>
       <link>https://earmingol.github.io/publications/tensor/</link>
-      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/publications/tensor/</guid>
-      <description>Cell interactions determine phenotypes, and intercellular communication is shaped by cellular contexts such as disease state, organismal life stage, and tissue microenvironment. Single-cell technologies measure the molecules mediating cell-cell communication, and emerging computational tools can exploit these data to decipher intercellular communication. However, current methods either disregard cellular context or rely on simple pairwise comparisons between samples, thus limiting the ability to decipher complex cell-cell communication across multiple time points, levels of disease severity, or spatial contexts.</description>
+      <description>Cell interactions determine phenotypes, and intercellular communication is shaped by cellular contexts such as disease state, organismal life stage, and tissue microenvironment. Single-cell technologies measure the molecules mediating cell–cell communication, and emerging computational tools can exploit these data to decipher intercellular communication. However, current methods either disregard cellular context or rely on simple pairwise comparisons between samples, thus limiting the ability to decipher complex cell–cell communication across multiple time points, levels of disease severity, or spatial contexts.</description>
     </item>
     
     <item>
