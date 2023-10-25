@@ -124,25 +124,29 @@
 <section class="resume-section p-3 p-lg-5 d-flex d-column content">
   <div class="my-auto">
     <h2 class="mb-0"><span class="text-primary">Inferring a spatial code of cell-cell interactions across a whole animal body</span></h2>
-    <p><a href="https://doi.org/10.1101/2020.11.22.392217">Link to full Pre-print</a></p>
-    <img src="/Publication-Icons/biorxiv.png" style="max-height:300px;max-width:30%;" align="right"/>
+    <p><a href="https://doi.org/10.1371/journal.pcbi.1010715">Link to full Research Article</a></p>
+    <img src="/Publication-Icons/Celegans-CCI.png" style="max-height:300px;max-width:30%;" align="right"/>
     <p>Cell-cell interactions shape cellular function and ultimately organismal
-phenotype. However, the spatial code embedded in the molecular interactions
-driving and sustaining spatial organization remains to be elucidated. Here we
-present a computational framework to infer the spatial code underlying
-cell-cell interactions in a whole animal. Using the transcriptomes of the
-cell types composing <em>Caenorhabditis elegans’</em> body, we compute the potential
-for intercellular interactions from the coexpression of ligand-receptor pairs.
-Leveraging a 3D atlas of C. elegans’ cells and a genetic algorithm we identify
-the ligand-receptor pairs most informative of the spatial organization of
-cells. The resulting intercellular distances are negatively correlated with
-the potential for cell-cell interaction, validating this strategy. Further,
-for selected ligand-receptor pairs, we experimentally confirm the
-algorithm-generated cell-cell interactions. Thus, our computational framework
-helps identify a code associated with spatial organization and cellular
-functions across a whole-animal body, showing that single-cell molecular
-measurements provide spatial information that may help elucidate organismal
-phenotypes and disease.</p>
+phenotype. Interacting cells can sense their mutual distance using
+combinations of ligand-receptor pairs, suggesting the existence of a
+spatial code, i.e., signals encoding spatial properties of cellular
+organization. However, this code driving and sustaining the spatial
+organization of cells remains to be elucidated. Here we present a
+computational framework to infer the spatial code underlying cell-cell
+interactions from the transcriptomes of the cell types across the whole
+body of a multicellular organism. As core of this framework, we introduce
+our tool cell2cell, which uses the coexpression of ligand-receptor pairs
+to compute the potential for intercellular interactions, and we test it
+across the Caenorhabditis elegans’ body. Leveraging a 3D atlas of
+C. elegans’ cells, we also implement a genetic algorithm to identify the
+ligand-receptor pairs most informative of the spatial organization of
+cells across the whole body. Validating the spatial code extracted with
+this strategy, the resulting intercellular distances are negatively
+correlated with the inferred cell-cell interactions. Furthermore, for
+selected cell-cell and ligand-receptor pairs, we experimentally confirm
+the communicatory behavior inferred with cell2cell and the genetic
+algorithm. Thus, our framework helps identify a code that predicts the
+spatial organization of cells across a whole-animal body.</p>
 
     <p class="mt-3">
     <ul class="tags">

@@ -6,7 +6,7 @@
     <description>Recent content in cell-cell interactions on Erick Armingol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cell-cell-interactions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cell-cell-interactions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computational suite for studying cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/software/cell2cell/</link>
@@ -19,10 +19,10 @@
     <item>
       <title>Inferring a spatial code of cell-cell interactions across a whole animal body</title>
       <link>https://earmingol.github.io/publications/cci-celegans/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/publications/cci-celegans/</guid>
-      <description>Cell-cell interactions shape cellular function and ultimately organismal phenotype. However, the spatial code embedded in the molecular interactions driving and sustaining spatial organization remains to be elucidated. Here we present a computational framework to infer the spatial code underlying cell-cell interactions in a whole animal. Using the transcriptomes of the cell types composing Caenorhabditis elegans’ body, we compute the potential for intercellular interactions from the coexpression of ligand-receptor pairs. Leveraging a 3D atlas of C.</description>
+      <description>Cell-cell interactions shape cellular function and ultimately organismal phenotype. Interacting cells can sense their mutual distance using combinations of ligand-receptor pairs, suggesting the existence of a spatial code, i.e., signals encoding spatial properties of cellular organization. However, this code driving and sustaining the spatial organization of cells remains to be elucidated. Here we present a computational framework to infer the spatial code underlying cell-cell interactions from the transcriptomes of the cell types across the whole body of a multicellular organism.</description>
     </item>
     
     <item>

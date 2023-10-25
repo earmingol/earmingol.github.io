@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Jan 2020 16:47:30 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Inferring a spatial code of cell-cell interactions across a whole animal body</title>
+      <link>https://earmingol.github.io/publications/cci-celegans/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/publications/cci-celegans/</guid>
+      <description>Cell-cell interactions shape cellular function and ultimately organismal phenotype. Interacting cells can sense their mutual distance using combinations of ligand-receptor pairs, suggesting the existence of a spatial code, i.e., signals encoding spatial properties of cellular organization. However, this code driving and sustaining the spatial organization of cells remains to be elucidated. Here we present a computational framework to infer the spatial code underlying cell-cell interactions from the transcriptomes of the cell types across the whole body of a multicellular organism.</description>
+    </item>
+    
+    <item>
       <title>Context-aware deconvolution of cell-cell communication with Tensor-cell2cell</title>
       <link>https://earmingol.github.io/publications/tensor/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
@@ -32,15 +41,6 @@
       
       <guid>https://earmingol.github.io/publications/hca-talk/</guid>
       <description>Talk given in the workshop about single-cell RNA-seq organized by the Human Cell Atlas for the Latin American community. This talk can be found at the time 1:01:42.   </description>
-    </item>
-    
-    <item>
-      <title>Inferring a spatial code of cell-cell interactions across a whole animal body</title>
-      <link>https://earmingol.github.io/publications/cci-celegans/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://earmingol.github.io/publications/cci-celegans/</guid>
-      <description>Cell-cell interactions shape cellular function and ultimately organismal phenotype. However, the spatial code embedded in the molecular interactions driving and sustaining spatial organization remains to be elucidated. Here we present a computational framework to infer the spatial code underlying cell-cell interactions in a whole animal. Using the transcriptomes of the cell types composing Caenorhabditis elegans’ body, we compute the potential for intercellular interactions from the coexpression of ligand-receptor pairs. Leveraging a 3D atlas of C.</description>
     </item>
     
     <item>
