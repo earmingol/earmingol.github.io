@@ -6,7 +6,7 @@
     <description>Recent content in transcriptomics on Erick Armingol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/transcriptomics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/transcriptomics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computational suite for studying cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/software/cell2cell/</link>
@@ -24,6 +24,15 @@
       <guid>https://earmingol.github.io/projects/software/sc-docker/</guid>
       <description>This Docker container includes:
  Anaconda &amp;amp; Jupyter Python 3.8.8 scanpy cell2cell R 4.0.3 Seurat SeuratDisk Harmony CellChat  </description>
+    </item>
+    
+    <item>
+      <title>The diversification of methods for studying cell–cell interactions and communication</title>
+      <link>https://earmingol.github.io/publications/cci-reviewv2/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/publications/cci-reviewv2/</guid>
+      <description>No cell lives in a vacuum, and the molecular interactions between cells define most phenotypes. Transcriptomics provides rich information to infer cell–cell interactions and communication, thus accelerating the discovery of the roles of cells within their communities. Such research relies heavily on algorithms that infer which cells are interacting and the ligands and receptors involved. Specific pressures on different research niches are driving the evolution of next-generation computational tools, enabling new conceptual opportunities and technological advances.</description>
     </item>
     
     <item>
@@ -74,10 +83,19 @@
     <item>
       <title>Cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/research/ccis/</link>
-      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/projects/research/ccis/</guid>
       <description>In multicellular organisms, high-order organizations of cells are defined by their cell-cell interactions (CCIs). Cells constantly sense their microenvironment and can trigger intracellular changes depending on the information that they receive. These communicatory processes allow single cells to coordinate their gene expression, which further enables the coordination of a collective behavior of cells. Thus, functions and phenotypes of multicellular organizations are orchestrated by their CCIs. The main focus of my research is on generating novel approaches to infer CCIs to help decipher how phenotypes are associated and how they depend on these processes.</description>
+    </item>
+    
+    <item>
+      <title>Cellular metabolism</title>
+      <link>https://earmingol.github.io/projects/research/metabolism/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/projects/research/metabolism/</guid>
+      <description>Cellular metabolism orchestrates the supply of resources and energy needed for the diversity of cellular functions, including protein synthesis, cellular growth and motility. Therefore, quantifying metabolic activities within individual cells in tissues is essential for understanding their physiological roles and potential alterations in aging and diseases. Additionally mapping these metabolic activities spatially within tissues is vital for insights into how cells work synergistically to perform complex tasks and how these functions change in disease states.</description>
     </item>
     
   </channel>

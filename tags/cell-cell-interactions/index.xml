@@ -6,7 +6,7 @@
     <description>Recent content in cell-cell interactions on Erick Armingol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cell-cell-interactions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cell-cell-interactions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computational suite for studying cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/software/cell2cell/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://earmingol.github.io/projects/software/cell2cell/</guid>
       <description>The suite cell2cell includes two main sub-tools:  The regular cell2cell, which includes the main approaches described in our review. Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve patterns of cell-cell communication across multiple cellular contexts (e.g., time points, disease states, cellular location, patients, etc.), as described in our research article.    A toy example using the under-the-hood methods of cell2cell is available here. This case allows personalizing the analyses in a higher level, but it may result harder to use.</description>
+    </item>
+    
+    <item>
+      <title>The diversification of methods for studying cell–cell interactions and communication</title>
+      <link>https://earmingol.github.io/publications/cci-reviewv2/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/publications/cci-reviewv2/</guid>
+      <description>No cell lives in a vacuum, and the molecular interactions between cells define most phenotypes. Transcriptomics provides rich information to infer cell–cell interactions and communication, thus accelerating the discovery of the roles of cells within their communities. Such research relies heavily on algorithms that infer which cells are interacting and the ligands and receptors involved. Specific pressures on different research niches are driving the evolution of next-generation computational tools, enabling new conceptual opportunities and technological advances.</description>
     </item>
     
     <item>
@@ -37,7 +46,7 @@
     <item>
       <title>Cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/research/ccis/</link>
-      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/projects/research/ccis/</guid>
       <description>In multicellular organisms, high-order organizations of cells are defined by their cell-cell interactions (CCIs). Cells constantly sense their microenvironment and can trigger intracellular changes depending on the information that they receive. These communicatory processes allow single cells to coordinate their gene expression, which further enables the coordination of a collective behavior of cells. Thus, functions and phenotypes of multicellular organizations are orchestrated by their CCIs. The main focus of my research is on generating novel approaches to infer CCIs to help decipher how phenotypes are associated and how they depend on these processes.</description>

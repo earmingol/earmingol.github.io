@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Erick Armingol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Caenorhabditis elegans</title>
-      <link>https://earmingol.github.io/tags/caenorhabditis-elegans/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://earmingol.github.io/tags/caenorhabditis-elegans/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cell-cell communication</title>
       <link>https://earmingol.github.io/tags/cell-cell-communication/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/tags/cell-cell-communication/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>cell-cell interactions</title>
       <link>https://earmingol.github.io/tags/cell-cell-interactions/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/tags/cell-cell-interactions/</guid>
       <description></description>
@@ -37,7 +28,7 @@
     <item>
       <title>RNA-seq</title>
       <link>https://earmingol.github.io/tags/rna-seq/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/tags/rna-seq/</guid>
       <description></description>
@@ -46,18 +37,63 @@
     <item>
       <title>single-cell</title>
       <link>https://earmingol.github.io/tags/single-cell/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/tags/single-cell/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>tools</title>
+      <link>https://earmingol.github.io/tags/tools/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>transcriptomics</title>
       <link>https://earmingol.github.io/tags/transcriptomics/</link>
-      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/tags/transcriptomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cellular metabolism</title>
+      <link>https://earmingol.github.io/tags/cellular-metabolism/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/tags/cellular-metabolism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metabolic modeling</title>
+      <link>https://earmingol.github.io/tags/metabolic-modeling/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/tags/metabolic-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>high-throughput experiments</title>
+      <link>https://earmingol.github.io/tags/high-throughput-experiments/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/tags/high-throughput-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Caenorhabditis elegans</title>
+      <link>https://earmingol.github.io/tags/caenorhabditis-elegans/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/tags/caenorhabditis-elegans/</guid>
       <description></description>
     </item>
     
@@ -80,15 +116,6 @@
     </item>
     
     <item>
-      <title>tools</title>
-      <link>https://earmingol.github.io/tags/tools/</link>
-      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://earmingol.github.io/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>COBRApy</title>
       <link>https://earmingol.github.io/tags/cobrapy/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
@@ -103,15 +130,6 @@
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://earmingol.github.io/tags/flux-balance-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>metabolic modeling</title>
-      <link>https://earmingol.github.io/tags/metabolic-modeling/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://earmingol.github.io/tags/metabolic-modeling/</guid>
       <description></description>
     </item>
     
