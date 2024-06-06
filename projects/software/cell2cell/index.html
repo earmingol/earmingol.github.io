@@ -141,45 +141,28 @@ patterns of cell-cell communication across multiple cellular contexts
 in our <a href="https://doi.org/10.1038/s41467-022-31369-2">research article</a>.</li>
 </ul>
 <hr>
-<p><img src="https://github.com/earmingol/cell2cell/blob/master/Logo.png?raw=true" alt="plot"></p>
+<h2 id="tutorials">Tutorials</h2>
+<h3 id="cell2cell-examples">cell2cell Examples</h3>
+<p><img src="https://github.com/earmingol/cell2cell/blob/master/Logo.png?raw=true" alt="cell2cell Logo"></p>
 <ul>
-<li>A toy example using the <strong>under-the-hood methods of cell2cell</strong> is
-<a href="https://github.com/earmingol/cell2cell/blob/master/examples/cell2cell/Toy-Example.ipynb">available here</a>.
-This case allows personalizing the analyses in a higher level, but it may result <strong>harder to use</strong>.</li>
-<li>A toy example using an Interaction Pipeline for <strong>bulk data</strong> is
-<a href="https://github.com/earmingol/cell2cell/blob/master/examples/cell2cell/Toy-Example-BulkPipeline.ipynb">available here</a>.
-An Interaction Pipeline makes cell2cell <strong>easier to use</strong>.</li>
-<li>A toy example using an Interaction Pipeline for <strong>single-cell data</strong> is
-<a href="https://github.com/earmingol/cell2cell/blob/master/examples/cell2cell/Toy-Example-SingleCellPipeline.ipynb">available here</a>.
-An Interaction Pipeline makes cell2cell <strong>easier to use</strong>.</li>
-<li>An example of using <em>cell2cell</em> to infer cell-cell interactions across the <strong>whole
-body of <em>C. elegans</em></strong> is <a href="https://github.com/LewisLabUCSD/Celegans-cell2cell">available here</a></li>
+<li><a href="https://github.com/earmingol/cell2cell/blob/master/examples/cell2cell/Toy-Example.ipynb">Step-by-step Pipeline</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/Toy-Example-BulkPipeline">Interaction Pipeline for Bulk Data</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/Toy-Example-SingleCellPipeline">Interaction Pipeline for Single-Cell Data</a></li>
+<li><a href="https://github.com/LewisLabUCSD/Celegans-cell2cell">Whole Body of <em>C. elegans</em></a></li>
 </ul>
-<hr>
-<p><img src="https://github.com/earmingol/cell2cell/blob/master/LogoTensor.png?raw=true" alt="plot"></p>
+<h3 id="tensor-cell2cell-examples">Tensor-cell2cell Examples</h3>
+<p><img src="https://github.com/earmingol/cell2cell/blob/master/LogoTensor.png?raw=true" alt="Tensor-cell2cell Logo"></p>
 <ul>
-<li>Jupyter notebooks for reproducing the results in the manuscript of Tensor-cell2cell
-<a href="https://doi.org/10.24433/CO.0051950.v2">are available and can be run online in codeocean.com</a>.
-It specifically contains analyses on datasets of <strong>COVID-19, Autism Spectrum Disorders (ASD) and the embryonic development
-of <em>C. elegans</em></strong>. These analyses evaluate changes in
-cell-cell communication dependent on:
-<ul>
-<li><a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v2.0/results.5afea95c-aec4-455d-b06e-b0c12ef10df1/06-BALF-Tensor-Factorization.html">Different severities of COVID-19</a></li>
-<li><a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v2.0/results.5afea95c-aec4-455d-b06e-b0c12ef10df1/11-Brain-ASD-Tensor-Factorization.html">ASD condition of patients</a></li>
-<li><a href="https://files.codeocean.com/files/verified/bffc457e-caa6-4c39-b869-f52330804db0_v2.0/results.5afea95c-aec4-455d-b06e-b0c12ef10df1/08-Celegans-Tensor-Factorization.html">Multiple time points of the <em>C. elegans</em> development</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/01-Tensor-Factorization-ASD/">Obtaining patterns of cell-cell communication</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/02-Factor-Specific-ASD/">Downstream 1: Factor-specific analyses</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/03-GSEA-ASD/">Downstream 2: Patterns to functions (GSEA)</a></li>
+<li><a href="https://colab.research.google.com/drive/1T6MUoxafTHYhjvenDbEtQoveIlHT2U6_?usp=sharing">Tensor-cell2cell in Google Colab (<strong>GPU</strong>)</a></li>
+<li><a href="https://earmingol.github.io/cell2cell/tutorials/Tensor-cell2cell-Spatial/">Communication patterns in <strong>Spatial Transcriptomics</strong></a></li>
 </ul>
-</li>
-<li><strong>Detailed tutorials for running Tensor-cell2cell and downstream analyses:</strong>
-<ul>
-<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/01-Tensor-Factorization-ASD/">Obtaining patterns of cell-cell communication with Tensor-cell2cell</a></li>
-<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/02-Factor-Specific-ASD/">Downstream analysis 1: Factor-specific analyses</a></li>
-<li><a href="https://earmingol.github.io/cell2cell/tutorials/ASD/03-GSEA-ASD/">Downstream analysis 2: Gene Set Enrichment Analysis</a></li>
-</ul>
-</li>
-<li><strong>Do you have precomputed communication scores?</strong> Re-use them as a prebuilt tensor as <a href="https://github.com/earmingol/cell2cell/blob/master/examples/tensor_cell2cell/Loading-PreBuiltTensor.ipynb">exemplified here</a>.
-This allows reusing previous tensors you built or even plugging in communication scores from other tools.</li>
-<li><strong>Run Tensor-cell2cell much faster!</strong> An example to perform the analysis using a <strong>Nvidia GPU</strong> is <a href="https://github.com/earmingol/cell2cell/blob/master/examples/tensor_cell2cell/GPU-Example.ipynb">available here</a></li>
-</ul>
+<p>Reproducible runs of the analyses in the <a href="https://doi.org/10.1038/s41467-022-31369-2">Tensor-cell2cell paper</a> are available at <a href="https://doi.org/10.24433/CO.0051950.v2">CodeOcean.com</a></p>
+<h2 id="liana--tensor-cell2cell">LIANA &amp; Tensor-cell2cell</h2>
+<p>Explore our tutorials for using Tensor-cell2cell with <a href="https://github.com/saezlab/liana-py">LIANA</a> at <a href="https://ccc-protocols.readthedocs.io/">ccc-protocols.readthedocs.io</a>.</p>
+<p><img src="https://www.cell.com/cms/attachment/26d4bea1-f0d7-495c-8320-5a8aa94f0948/gr2.jpg" alt="plot"></p>
 
     <p>Project link: <a href="https://earmingol.github.io/cell2cell/">https://earmingol.github.io/cell2cell/</a></p>
     <ul class="tags">
