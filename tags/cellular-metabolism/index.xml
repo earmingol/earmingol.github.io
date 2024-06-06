@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cellular metabolism on Erick Armingol</title>
+    <link>https://earmingol.github.io/tags/cellular-metabolism/</link>
+    <description>Recent content in cellular metabolism on Erick Armingol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cellular-metabolism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cellular metabolism</title>
+      <link>https://earmingol.github.io/projects/research/metabolism/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://earmingol.github.io/projects/research/metabolism/</guid>
+      <description>Cellular metabolism orchestrates the supply of resources and energy needed for the diversity of cellular functions, including protein synthesis, cellular growth and motility. Therefore, quantifying metabolic activities within individual cells in tissues is essential for understanding their physiological roles and potential alterations in aging and diseases. Additionally mapping these metabolic activities spatially within tissues is vital for insights into how cells work synergistically to perform complex tasks and how these functions change in disease states.</description>
+    </item>
+    
+  </channel>
+</rss>
