@@ -4,17 +4,16 @@
     <title>COBRApy on Erick Armingol</title>
     <link>https://earmingol.github.io/tags/cobrapy/</link>
     <description>Recent content in COBRApy on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cobrapy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/cobrapy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Utility for facilitating the use of COBRApy</title>
       <link>https://earmingol.github.io/projects/software/cobra-utils/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/software/cobra-utils/</guid>
-      <description>Tool to use together with COBRApy. The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/cobra-utils/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/cobra-utils.svg&#34; alt=&#34;PyPI version&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tool to use together with &lt;a href=&#34;https://github.com/opencobra/cobrapy&#34;&gt;COBRApy&lt;/a&gt;.&#xA;The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

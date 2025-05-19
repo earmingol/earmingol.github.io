@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>metabolic modeling on Erick Armingol</title>
+    <title>Metabolic Modeling on Erick Armingol</title>
     <link>https://earmingol.github.io/tags/metabolic-modeling/</link>
-    <description>Recent content in metabolic modeling on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Metabolic Modeling on Erick Armingol</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/metabolic-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/metabolic-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Utility for facilitating the use of COBRApy</title>
       <link>https://earmingol.github.io/projects/software/cobra-utils/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/software/cobra-utils/</guid>
-      <description>Tool to use together with COBRApy. The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/cobra-utils/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/cobra-utils.svg&#34; alt=&#34;PyPI version&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tool to use together with &lt;a href=&#34;https://github.com/opencobra/cobrapy&#34;&gt;COBRApy&lt;/a&gt;.&#xA;The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cellular metabolism</title>
       <link>https://earmingol.github.io/projects/research/metabolism/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/research/metabolism/</guid>
-      <description>Cellular metabolism orchestrates the supply of resources and energy needed for the diversity of cellular functions, including protein synthesis, cellular growth and motility. Therefore, quantifying metabolic activities within individual cells in tissues is essential for understanding their physiological roles and potential alterations in aging and diseases. Additionally mapping these metabolic activities spatially within tissues is vital for insights into how cells work synergistically to perform complex tasks and how these functions change in disease states.</description>
+      <description>&lt;p&gt;Cellular metabolism orchestrates the supply of resources and energy needed for&#xA;the diversity of cellular functions, including protein synthesis, cellular growth&#xA;and motility. Therefore, quantifying metabolic activities within individual cells&#xA;in tissues is essential for understanding their physiological roles and potential&#xA;alterations in aging and diseases. Additionally mapping these metabolic activities&#xA;spatially within tissues is vital for insights into how cells work synergistically&#xA;to perform complex tasks and how these functions change in disease states. By leveraging&#xA;metabolic modeling with novel strategies to understand metabolism from genomics data, I aim&#xA;to elucidate how metabolic activities help to perform cellular functions, shaping phenotypes under&#xA;different biological conditions.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

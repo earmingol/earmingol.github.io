@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>high-throughput experiments on Erick Armingol</title>
+    <title>High-Throughput Experiments on Erick Armingol</title>
     <link>https://earmingol.github.io/tags/high-throughput-experiments/</link>
-    <description>Recent content in high-throughput experiments on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in High-Throughput Experiments on Erick Armingol</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/high-throughput-experiments/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/high-throughput-experiments/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The diversification of methods for studying cell–cell interactions and communication</title>
       <link>https://earmingol.github.io/publications/cci-reviewv2/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/cci-reviewv2/</guid>
-      <description>No cell lives in a vacuum, and the molecular interactions between cells define most phenotypes. Transcriptomics provides rich information to infer cell–cell interactions and communication, thus accelerating the discovery of the roles of cells within their communities. Such research relies heavily on algorithms that infer which cells are interacting and the ligands and receptors involved. Specific pressures on different research niches are driving the evolution of next-generation computational tools, enabling new conceptual opportunities and technological advances.</description>
+      <description>&lt;p&gt;No cell lives in a vacuum, and the molecular interactions between cells define most phenotypes.&#xA;Transcriptomics provides rich information to infer cell–cell interactions and communication,&#xA;thus accelerating the discovery of the roles of cells within their communities. Such research&#xA;relies heavily on algorithms that infer which cells are interacting and the ligands and receptors&#xA;involved. Specific pressures on different research niches are driving the evolution of next-generation&#xA;computational tools, enabling new conceptual opportunities and technological advances.&#xA;More sophisticated algorithms now account for the heterogeneity and spatial organization of&#xA;cells, multiple ligand types and intracellular signalling events, and enable the use of larger&#xA;and more complex datasets, including single-cell and spatial transcriptomics. Similarly,&#xA;new high-throughput experimental methods are increasing the number and resolution of interactions&#xA;that can be analysed simultaneously. Here, we explore recent progress in cell–cell interaction&#xA;research and highlight the diversification of the next generation of tools, which have yielded&#xA;a rich ecosystem of tools for different applications and are enabling invaluable discoveries.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

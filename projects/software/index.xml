@@ -4,36 +4,37 @@
     <title>Software/Tools on Erick Armingol</title>
     <link>https://earmingol.github.io/projects/software/</link>
     <description>Recent content in Software/Tools on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 16:49:15 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/projects/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/projects/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computational suite for studying cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/software/cell2cell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/software/cell2cell/</guid>
-      <description>The suite cell2cell includes two main sub-tools:  The regular cell2cell, which includes the main approaches described in our review. Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve patterns of cell-cell communication across multiple cellular contexts (e.g., time points, disease states, cellular location, patients, etc.), as described in our research article.   Tutorials cell2cell Examples  Step-by-step Pipeline Interaction Pipeline for Bulk Data Interaction Pipeline for Single-Cell Data Whole Body of C.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/cell2cell/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/cell2cell.svg&#34; alt=&#34;PyPI Version&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-suite-cell2cell-includes-two-main-sub-tools&#34;&gt;The suite &lt;em&gt;cell2cell&lt;/em&gt; includes two main sub-tools:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The regular cell2cell, which includes the main approaches described in our &lt;a href=&#34;https://www.nature.com/articles/s41576-020-00292-x&#34;&gt;review&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve&#xA;patterns of cell-cell communication across multiple cellular contexts&#xA;(e.g., time points, disease states, cellular location, patients, etc.), as described&#xA;in our &lt;a href=&#34;https://doi.org/10.1038/s41467-022-31369-2&#34;&gt;research article&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cell2cell-examples&#34;&gt;cell2cell Examples&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/earmingol/cell2cell/blob/master/Logo.png?raw=true&#34; alt=&#34;cell2cell Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/earmingol/cell2cell/blob/master/examples/cell2cell/Toy-Example.ipynb&#34;&gt;Step-by-step Pipeline&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://earmingol.github.io/cell2cell/tutorials/Toy-Example-BulkPipeline&#34;&gt;Interaction Pipeline for Bulk Data&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://earmingol.github.io/cell2cell/tutorials/Toy-Example-SingleCellPipeline&#34;&gt;Interaction Pipeline for Single-Cell Data&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/LewisLabUCSD/Celegans-cell2cell&#34;&gt;Whole Body of &lt;em&gt;C. elegans&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tensor-cell2cell-examples&#34;&gt;Tensor-cell2cell Examples&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/earmingol/cell2cell/blob/master/LogoTensor.png?raw=true&#34; alt=&#34;Tensor-cell2cell Logo&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docker container for single-cell analyses</title>
       <link>https://earmingol.github.io/projects/software/sc-docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/software/sc-docker/</guid>
-      <description>This Docker container includes:
- Anaconda &amp;amp; Jupyter Python 3.8.8 scanpy cell2cell R 4.0.3 Seurat SeuratDisk Harmony CellChat  </description>
+      <description>&lt;p&gt;This Docker container includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Anaconda &amp;amp; Jupyter&lt;/li&gt;&#xA;&lt;li&gt;Python 3.8.8&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/theislab/scanpy&#34;&gt;scanpy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/earmingol/cell2cell&#34;&gt;cell2cell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;R 4.0.3&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/satijalab/seurat&#34;&gt;Seurat&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/mojaveazure/seurat-disk&#34;&gt;SeuratDisk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/immunogenomics/harmony&#34;&gt;Harmony&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/sqjin/CellChat&#34;&gt;CellChat&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
+    <item>
+      <title>Metabolic activity from single‑cell and spatial transcriptomics with scCellFie</title>
+      <link>https://earmingol.github.io/projects/software/sccellfie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://earmingol.github.io/projects/software/sccellfie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/sccellfie/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/sccellfie.svg&#34; alt=&#34;PyPI&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://codecov.io/gh/earmingol/scCellFie&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/earmingol/scCellFie/graph/badge.svg?token=22NENAKNKI&#34; alt=&#34;Codecov&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://pepy.tech/project/sccellfie&#34;&gt;&lt;img src=&#34;https://pepy.tech/badge/sccellfie/month&#34; alt=&#34;Downloads&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://opensource.org/licenses/MIT&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/License-MIT-yellow.svg&#34; alt=&#34;License: MIT&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;metabolic-activity-from-singlecell-and-spatial-transcriptomics-with-sccellfie&#34;&gt;Metabolic activity from single‑cell and spatial transcriptomics with &lt;strong&gt;scCellFie&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;scCellFie&lt;/strong&gt; is a Python‑based tool for analyzing metabolic activity at different resolutions, developed at the &lt;a href=&#34;https://ventolab.org/&#34;&gt;Vento Lab&lt;/a&gt;.&lt;br&gt;&#xA;It efficiently processes both single‑cell and spatial data to predict metabolic task activities.&lt;br&gt;&#xA;While its prediction strategy is inspired by &lt;a href=&#34;https://github.com/LewisLabUCSD/CellFie&#34;&gt;CellFie&lt;/a&gt; from the &lt;a href=&#34;https://lewislab.ucsd.edu/&#34;&gt;Lewis Lab&lt;/a&gt; (originally in MATLAB for bulk and small single‑cell datasets), &lt;strong&gt;scCellFie&lt;/strong&gt; adds multiple improvements such as marker selection, differential analysis, and cell‑cell communication inference.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Utility for facilitating the use of COBRApy</title>
       <link>https://earmingol.github.io/projects/software/cobra-utils/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/software/cobra-utils/</guid>
-      <description>Tool to use together with COBRApy. The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/cobra-utils/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/cobra-utils.svg&#34; alt=&#34;PyPI version&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tool to use together with &lt;a href=&#34;https://github.com/opencobra/cobrapy&#34;&gt;COBRApy&lt;/a&gt;.&#xA;The goal of this tool is to facilitate the use of COBRApy and the manipulation of metabolic reconstruction models.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

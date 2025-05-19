@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Caenorhabditis elegans on Erick Armingol</title>
+    <title>Caenorhabditis Elegans on Erick Armingol</title>
     <link>https://earmingol.github.io/tags/caenorhabditis-elegans/</link>
-    <description>Recent content in Caenorhabditis elegans on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Caenorhabditis Elegans on Erick Armingol</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/caenorhabditis-elegans/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/caenorhabditis-elegans/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inferring a spatial code of cell-cell interactions across a whole animal body</title>
       <link>https://earmingol.github.io/publications/cci-celegans/</link>
       <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/cci-celegans/</guid>
-      <description>Cell-cell interactions shape cellular function and ultimately organismal phenotype. Interacting cells can sense their mutual distance using combinations of ligand-receptor pairs, suggesting the existence of a spatial code, i.e., signals encoding spatial properties of cellular organization. However, this code driving and sustaining the spatial organization of cells remains to be elucidated. Here we present a computational framework to infer the spatial code underlying cell-cell interactions from the transcriptomes of the cell types across the whole body of a multicellular organism.</description>
+      <description>&lt;p&gt;Cell-cell interactions shape cellular function and ultimately organismal&#xA;phenotype. Interacting cells can sense their mutual distance using&#xA;combinations of ligand-receptor pairs, suggesting the existence of a&#xA;spatial code, i.e., signals encoding spatial properties of cellular&#xA;organization. However, this code driving and sustaining the spatial&#xA;organization of cells remains to be elucidated. Here we present a&#xA;computational framework to infer the spatial code underlying cell-cell&#xA;interactions from the transcriptomes of the cell types across the whole&#xA;body of a multicellular organism. As core of this framework, we introduce&#xA;our tool cell2cell, which uses the coexpression of ligand-receptor pairs&#xA;to compute the potential for intercellular interactions, and we test it&#xA;across the Caenorhabditis elegans’ body. Leveraging a 3D atlas of&#xA;C. elegans’ cells, we also implement a genetic algorithm to identify the&#xA;ligand-receptor pairs most informative of the spatial organization of&#xA;cells across the whole body. Validating the spatial code extracted with&#xA;this strategy, the resulting intercellular distances are negatively&#xA;correlated with the inferred cell-cell interactions. Furthermore, for&#xA;selected cell-cell and ligand-receptor pairs, we experimentally confirm&#xA;the communicatory behavior inferred with cell2cell and the genetic&#xA;algorithm. Thus, our framework helps identify a code that predicts the&#xA;spatial organization of cells across a whole-animal body.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

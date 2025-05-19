@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Endometrium on Erick Armingol</title>
+    <link>https://earmingol.github.io/tags/endometrium/</link>
+    <description>Recent content in Endometrium on Erick Armingol</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/endometrium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atlas-scale metabolic activities inferred from single-cell and spatial transcriptomics</title>
+      <link>https://earmingol.github.io/publications/sccellfie/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://earmingol.github.io/publications/sccellfie/</guid>
+      <description>&lt;p&gt;Metabolism supplies energy, building blocks, and signaling molecules vital for&#xA;cell function and communication, but methods to directly measure it at single-cell&#xA;and/or spatial resolutions remain technically challenging and inaccessible for most&#xA;researchers. Single-cell and spatial transcriptomics offer high-throughput data alternatives&#xA;with a rich ecosystem of computational tools. Here, we present scCellFie, a computational&#xA;framework to infer metabolic activities from human and mouse transcriptomic data at&#xA;single-cell and spatial resolution. Applied to ∼30 million cell profiles, we generated&#xA;a comprehensive metabolic atlas across human organs, identifying organ– and&#xA;cell-type-specific activities. In the endometrium, scCellFie reveals metabolic&#xA;programs contributing to healthy tissue remodeling during the menstrual cycle, with&#xA;temporal patterns replicated in data from in vitro cultures. We also uncover&#xA;disease-associated metabolic alterations in endometriosis and endometrial carcinoma,&#xA;linked to proinflammatory macrophages, and metabolite-mediated epithelial cell&#xA;communication, respectively. Ultimately, scCellFie provides a scalable toolbox for&#xA;extracting interpretable metabolic functionalities from transcriptomic data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

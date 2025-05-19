@@ -4,26 +4,23 @@
     <title>Research on Erick Armingol</title>
     <link>https://earmingol.github.io/projects/research/</link>
     <description>Recent content in Research on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/projects/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/projects/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/research/ccis/</link>
       <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/research/ccis/</guid>
-      <description>In multicellular organisms, high-order organizations of cells are defined by their cell-cell interactions (CCIs). Cells constantly sense their microenvironment and can trigger intracellular changes depending on the information that they receive. These communicatory processes allow single cells to coordinate their gene expression, which further enables the coordination of a collective behavior of cells. Thus, functions and phenotypes of multicellular organizations are orchestrated by their CCIs. The main focus of my research is on generating novel approaches to infer CCIs to help decipher how phenotypes are associated and how they depend on these processes.</description>
+      <description>&lt;p&gt;In multicellular organisms, high-order organizations of cells are defined by&#xA;their cell-cell interactions (CCIs). Cells constantly sense their&#xA;microenvironment and can trigger intracellular changes depending on the&#xA;information that they receive. These communicatory processes allow single&#xA;cells to coordinate their gene expression, which further enables the&#xA;coordination of a collective behavior of cells. Thus, functions and&#xA;phenotypes of multicellular organizations are orchestrated by their CCIs. The&#xA;main focus of my research is on generating novel approaches to infer CCIs to&#xA;help decipher how phenotypes are associated and how they depend on these&#xA;processes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cellular metabolism</title>
       <link>https://earmingol.github.io/projects/research/metabolism/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/research/metabolism/</guid>
-      <description>Cellular metabolism orchestrates the supply of resources and energy needed for the diversity of cellular functions, including protein synthesis, cellular growth and motility. Therefore, quantifying metabolic activities within individual cells in tissues is essential for understanding their physiological roles and potential alterations in aging and diseases. Additionally mapping these metabolic activities spatially within tissues is vital for insights into how cells work synergistically to perform complex tasks and how these functions change in disease states.</description>
+      <description>&lt;p&gt;Cellular metabolism orchestrates the supply of resources and energy needed for&#xA;the diversity of cellular functions, including protein synthesis, cellular growth&#xA;and motility. Therefore, quantifying metabolic activities within individual cells&#xA;in tissues is essential for understanding their physiological roles and potential&#xA;alterations in aging and diseases. Additionally mapping these metabolic activities&#xA;spatially within tissues is vital for insights into how cells work synergistically&#xA;to perform complex tasks and how these functions change in disease states. By leveraging&#xA;metabolic modeling with novel strategies to understand metabolism from genomics data, I aim&#xA;to elucidate how metabolic activities help to perform cellular functions, shaping phenotypes under&#xA;different biological conditions.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

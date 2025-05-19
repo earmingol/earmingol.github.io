@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>isocitrate dehydrogenase on Erick Armingol</title>
+    <title>Isocitrate Dehydrogenase on Erick Armingol</title>
     <link>https://earmingol.github.io/tags/isocitrate-dehydrogenase/</link>
-    <description>Recent content in isocitrate dehydrogenase on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Isocitrate Dehydrogenase on Erick Armingol</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/isocitrate-dehydrogenase/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/isocitrate-dehydrogenase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding the impact of the cofactor swapping of isocitrate dehydrogenase over the growth phenotype of Escherichia coli on acetate by using constraint-based modeling</title>
       <link>https://earmingol.github.io/publications/ecoli-fba/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/ecoli-fba/</guid>
-      <description>It has been proposed that NADP+-specificity of isocitrate dehydrogenase (ICDH) evolved as an adaptation of microorganisms to grow on acetate as the sole source of carbon and energy. In Escherichia coli, changing the cofactor specificity of ICDH from NADP+ to NAD+ (cofactor swapping) decreases the growth rate on acetate. However, the metabolic basis of this phenotype has not been analyzed. In this work, we used constraint-based modeling to investigate the effect of the cofactor swapping of ICDH in terms of energy production, response of alternative sources of NADPH, and partitioning of fluxes between ICDH and isocitrate lyase (ICL) -a crucial bifurcation when the bacterium grows on acetate-.</description>
+      <description>&lt;p&gt;It has been proposed that NADP+-specificity of isocitrate dehydrogenase (ICDH)&#xA;evolved as an adaptation of microorganisms to grow on acetate as the sole&#xA;source of carbon and energy. In Escherichia coli, changing the cofactor&#xA;specificity of ICDH from NADP+ to NAD+ (cofactor swapping) decreases the&#xA;growth rate on acetate. However, the metabolic basis of this phenotype has&#xA;not been analyzed. In this work, we used constraint-based modeling to&#xA;investigate the effect of the cofactor swapping of ICDH in terms of energy&#xA;production, response of alternative sources of NADPH, and partitioning of&#xA;fluxes between ICDH and isocitrate lyase (ICL) -a crucial bifurcation when&#xA;the bacterium grows on acetate-. We generated E. coli strains expressing&#xA;NAD+-specific ICDH instead of the native enzyme, and bearing the deletion&#xA;of the NADPH-producing transhydrogenase PntAB. We measured their growth rate&#xA;and acetate uptake rate, modeled the distribution of metabolic fluxes by Flux&#xA;Balance Analysis (FBA), and quantified the specific activities of&#xA;NADPH-producing dehydrogenases in central pathways. The cofactor swapping&#xA;of ICDH led to one-third decrease in biomass yield, irrespective of the&#xA;presence of PntAB. According to our simulations, the diminution in growth&#xA;rate observed upon cofactor swapping could be explained by one-half decrease&#xA;in the total production of NADPH and a lower availability of carbon for&#xA;biosynthesis because of a change in the partition at the isocitrate&#xA;bifurcation. Together with an increased total ATP production, this scenario&#xA;resulted in a 10-fold increment in the flux of ATP not used for growing&#xA;purposes. PntAB was identified as the primary NADPH balancing response,&#xA;with the dehydrogenases of the oxidative branch of the Pentose Phosphate&#xA;Pathway and the malic enzyme playing a role in its absence. We propose that&#xA;in the context of E. coli growing on acetate, the NADP+-specificity of ICDH&#xA;is a trait that impacts not only NADPH production, but also the efficient&#xA;allocation of carbon and energy.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,83 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cell-cell communication on Erick Armingol</title>
+    <title>Cell-Cell Communication on Erick Armingol</title>
     <link>https://earmingol.github.io/tags/cell-cell-communication/</link>
-    <description>Recent content in cell-cell communication on Erick Armingol</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cell-Cell Communication on Erick Armingol</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://earmingol.github.io/tags/cell-cell-communication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/cell-cell-communication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computational suite for studying cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/software/cell2cell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/software/cell2cell/</guid>
-      <description>The suite cell2cell includes two main sub-tools:  The regular cell2cell, which includes the main approaches described in our review. Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve patterns of cell-cell communication across multiple cellular contexts (e.g., time points, disease states, cellular location, patients, etc.), as described in our research article.   Tutorials cell2cell Examples  Step-by-step Pipeline Interaction Pipeline for Bulk Data Interaction Pipeline for Single-Cell Data Whole Body of C.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/cell2cell/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/cell2cell.svg&#34; alt=&#34;PyPI Version&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-suite-cell2cell-includes-two-main-sub-tools&#34;&gt;The suite &lt;em&gt;cell2cell&lt;/em&gt; includes two main sub-tools:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The regular cell2cell, which includes the main approaches described in our &lt;a href=&#34;https://www.nature.com/articles/s41576-020-00292-x&#34;&gt;review&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tensor-cell2cell, a novel method that uses tensor factorization to deconvolve&#xA;patterns of cell-cell communication across multiple cellular contexts&#xA;(e.g., time points, disease states, cellular location, patients, etc.), as described&#xA;in our &lt;a href=&#34;https://doi.org/10.1038/s41467-022-31369-2&#34;&gt;research article&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cell2cell-examples&#34;&gt;cell2cell Examples&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/earmingol/cell2cell/blob/master/Logo.png?raw=true&#34; alt=&#34;cell2cell Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/earmingol/cell2cell/blob/master/examples/cell2cell/Toy-Example.ipynb&#34;&gt;Step-by-step Pipeline&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://earmingol.github.io/cell2cell/tutorials/Toy-Example-BulkPipeline&#34;&gt;Interaction Pipeline for Bulk Data&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://earmingol.github.io/cell2cell/tutorials/Toy-Example-SingleCellPipeline&#34;&gt;Interaction Pipeline for Single-Cell Data&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/LewisLabUCSD/Celegans-cell2cell&#34;&gt;Whole Body of &lt;em&gt;C. elegans&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tensor-cell2cell-examples&#34;&gt;Tensor-cell2cell Examples&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/earmingol/cell2cell/blob/master/LogoTensor.png?raw=true&#34; alt=&#34;Tensor-cell2cell Logo&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Metabolic activity from single‑cell and spatial transcriptomics with scCellFie</title>
+      <link>https://earmingol.github.io/projects/software/sccellfie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://earmingol.github.io/projects/software/sccellfie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/sccellfie/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/sccellfie.svg&#34; alt=&#34;PyPI&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://codecov.io/gh/earmingol/scCellFie&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/earmingol/scCellFie/graph/badge.svg?token=22NENAKNKI&#34; alt=&#34;Codecov&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://pepy.tech/project/sccellfie&#34;&gt;&lt;img src=&#34;https://pepy.tech/badge/sccellfie/month&#34; alt=&#34;Downloads&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://opensource.org/licenses/MIT&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/License-MIT-yellow.svg&#34; alt=&#34;License: MIT&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;metabolic-activity-from-singlecell-and-spatial-transcriptomics-with-sccellfie&#34;&gt;Metabolic activity from single‑cell and spatial transcriptomics with &lt;strong&gt;scCellFie&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;scCellFie&lt;/strong&gt; is a Python‑based tool for analyzing metabolic activity at different resolutions, developed at the &lt;a href=&#34;https://ventolab.org/&#34;&gt;Vento Lab&lt;/a&gt;.&lt;br&gt;&#xA;It efficiently processes both single‑cell and spatial data to predict metabolic task activities.&lt;br&gt;&#xA;While its prediction strategy is inspired by &lt;a href=&#34;https://github.com/LewisLabUCSD/CellFie&#34;&gt;CellFie&lt;/a&gt; from the &lt;a href=&#34;https://lewislab.ucsd.edu/&#34;&gt;Lewis Lab&lt;/a&gt; (originally in MATLAB for bulk and small single‑cell datasets), &lt;strong&gt;scCellFie&lt;/strong&gt; adds multiple improvements such as marker selection, differential analysis, and cell‑cell communication inference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atlas-scale metabolic activities inferred from single-cell and spatial transcriptomics</title>
+      <link>https://earmingol.github.io/publications/sccellfie/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://earmingol.github.io/publications/sccellfie/</guid>
+      <description>&lt;p&gt;Metabolism supplies energy, building blocks, and signaling molecules vital for&#xA;cell function and communication, but methods to directly measure it at single-cell&#xA;and/or spatial resolutions remain technically challenging and inaccessible for most&#xA;researchers. Single-cell and spatial transcriptomics offer high-throughput data alternatives&#xA;with a rich ecosystem of computational tools. Here, we present scCellFie, a computational&#xA;framework to infer metabolic activities from human and mouse transcriptomic data at&#xA;single-cell and spatial resolution. Applied to ∼30 million cell profiles, we generated&#xA;a comprehensive metabolic atlas across human organs, identifying organ– and&#xA;cell-type-specific activities. In the endometrium, scCellFie reveals metabolic&#xA;programs contributing to healthy tissue remodeling during the menstrual cycle, with&#xA;temporal patterns replicated in data from in vitro cultures. We also uncover&#xA;disease-associated metabolic alterations in endometriosis and endometrial carcinoma,&#xA;linked to proinflammatory macrophages, and metabolite-mediated epithelial cell&#xA;communication, respectively. Ultimately, scCellFie provides a scalable toolbox for&#xA;extracting interpretable metabolic functionalities from transcriptomic data.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The diversification of methods for studying cell–cell interactions and communication</title>
       <link>https://earmingol.github.io/publications/cci-reviewv2/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/cci-reviewv2/</guid>
-      <description>No cell lives in a vacuum, and the molecular interactions between cells define most phenotypes. Transcriptomics provides rich information to infer cell–cell interactions and communication, thus accelerating the discovery of the roles of cells within their communities. Such research relies heavily on algorithms that infer which cells are interacting and the ligands and receptors involved. Specific pressures on different research niches are driving the evolution of next-generation computational tools, enabling new conceptual opportunities and technological advances.</description>
+      <description>&lt;p&gt;No cell lives in a vacuum, and the molecular interactions between cells define most phenotypes.&#xA;Transcriptomics provides rich information to infer cell–cell interactions and communication,&#xA;thus accelerating the discovery of the roles of cells within their communities. Such research&#xA;relies heavily on algorithms that infer which cells are interacting and the ligands and receptors&#xA;involved. Specific pressures on different research niches are driving the evolution of next-generation&#xA;computational tools, enabling new conceptual opportunities and technological advances.&#xA;More sophisticated algorithms now account for the heterogeneity and spatial organization of&#xA;cells, multiple ligand types and intracellular signalling events, and enable the use of larger&#xA;and more complex datasets, including single-cell and spatial transcriptomics. Similarly,&#xA;new high-throughput experimental methods are increasing the number and resolution of interactions&#xA;that can be analysed simultaneously. Here, we explore recent progress in cell–cell interaction&#xA;research and highlight the diversification of the next generation of tools, which have yielded&#xA;a rich ecosystem of tools for different applications and are enabling invaluable discoveries.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Inferring a spatial code of cell-cell interactions across a whole animal body</title>
       <link>https://earmingol.github.io/publications/cci-celegans/</link>
       <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/cci-celegans/</guid>
-      <description>Cell-cell interactions shape cellular function and ultimately organismal phenotype. Interacting cells can sense their mutual distance using combinations of ligand-receptor pairs, suggesting the existence of a spatial code, i.e., signals encoding spatial properties of cellular organization. However, this code driving and sustaining the spatial organization of cells remains to be elucidated. Here we present a computational framework to infer the spatial code underlying cell-cell interactions from the transcriptomes of the cell types across the whole body of a multicellular organism.</description>
+      <description>&lt;p&gt;Cell-cell interactions shape cellular function and ultimately organismal&#xA;phenotype. Interacting cells can sense their mutual distance using&#xA;combinations of ligand-receptor pairs, suggesting the existence of a&#xA;spatial code, i.e., signals encoding spatial properties of cellular&#xA;organization. However, this code driving and sustaining the spatial&#xA;organization of cells remains to be elucidated. Here we present a&#xA;computational framework to infer the spatial code underlying cell-cell&#xA;interactions from the transcriptomes of the cell types across the whole&#xA;body of a multicellular organism. As core of this framework, we introduce&#xA;our tool cell2cell, which uses the coexpression of ligand-receptor pairs&#xA;to compute the potential for intercellular interactions, and we test it&#xA;across the Caenorhabditis elegans’ body. Leveraging a 3D atlas of&#xA;C. elegans’ cells, we also implement a genetic algorithm to identify the&#xA;ligand-receptor pairs most informative of the spatial organization of&#xA;cells across the whole body. Validating the spatial code extracted with&#xA;this strategy, the resulting intercellular distances are negatively&#xA;correlated with the inferred cell-cell interactions. Furthermore, for&#xA;selected cell-cell and ligand-receptor pairs, we experimentally confirm&#xA;the communicatory behavior inferred with cell2cell and the genetic&#xA;algorithm. Thus, our framework helps identify a code that predicts the&#xA;spatial organization of cells across a whole-animal body.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Context-aware deconvolution of cell-cell communication with Tensor-cell2cell</title>
       <link>https://earmingol.github.io/publications/tensor/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/tensor/</guid>
-      <description>Cell interactions determine phenotypes, and intercellular communication is shaped by cellular contexts such as disease state, organismal life stage, and tissue microenvironment. Single-cell technologies measure the molecules mediating cell–cell communication, and emerging computational tools can exploit these data to decipher intercellular communication. However, current methods either disregard cellular context or rely on simple pairwise comparisons between samples, thus limiting the ability to decipher complex cell–cell communication across multiple time points, levels of disease severity, or spatial contexts.</description>
+      <description>&lt;p&gt;Cell interactions determine phenotypes, and intercellular communication is shaped by cellular contexts such as disease&#xA;state, organismal life stage, and tissue microenvironment. Single-cell technologies measure the molecules mediating&#xA;cell–cell communication, and emerging computational tools can exploit these data to decipher intercellular communication.&#xA;However, current methods either disregard cellular context or rely on simple pairwise comparisons between samples,&#xA;thus limiting the ability to decipher complex cell–cell communication across multiple time points, levels of disease&#xA;severity, or spatial contexts. Here we present Tensor-cell2cell, an unsupervised method using tensor decomposition,&#xA;which deciphers context-driven intercellular communication by simultaneously accounting for multiple stages, states,&#xA;or locations of the cells. To do so, Tensor-cell2cell uncovers context-driven patterns of communication associated&#xA;with different phenotypic states and determined by unique combinations of cell types and ligand-receptor pairs.&#xA;As such, Tensor-cell2cell robustly improves upon and extends the analytical capabilities of existing tools.&#xA;We show Tensor-cell2cell can identify multiple modules associated with distinct communication processes (e.g.,&#xA;participating cell–cell and ligand-receptor pairs) linked to severities of Coronavirus Disease 2019 and to Autism&#xA;Spectrum Disorder. Thus, we introduce an effective and easy-to-use strategy for understanding complex communication&#xA;patterns across diverse conditions.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tensor-cell2cell: Desde la transcriptómica a entender cómo el contexto biológico afecta la comunicación intercelular</title>
       <link>https://earmingol.github.io/publications/accdis-talk/</link>
       <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/accdis-talk/</guid>
-      <description>Talk given in the ACCDiS Seminars about single-cell transcriptomics applied to understand chronic diseases   </description>
+      <description>&lt;p&gt;Talk given in the ACCDiS Seminars about single-cell transcriptomics applied to understand chronic diseases&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/yj_OLscLFC0?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Computational resources for studying cell-cell communication</title>
       <link>https://earmingol.github.io/publications/hca-talk/</link>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/hca-talk/</guid>
-      <description>Talk given in the workshop about single-cell RNA-seq organized by the Human Cell Atlas for the Latin American community. This talk can be found at the time 1:01:42.   </description>
+      <description>&lt;p&gt;Talk given in the workshop about single-cell RNA-seq organized by the Human Cell Atlas for the Latin American community.&#xA;This talk can be found at the time 1:01:42.&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/fOEWkVf2vk0?t=3702?autoplay=1&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=1&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Deciphering cell-cell interactions and communication from gene expression</title>
       <link>https://earmingol.github.io/publications/cci-review/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/publications/cci-review/</guid>
-      <description>Cell–cell interactions orchestrate organismal development, homeostasis and single-cell functions. When cells do not properly interact or improperly decode molecular messages, disease ensues. Thus, the identification and quantification of intercellular signalling pathways has become a common analysis performed across diverse disciplines. The expansion of protein–protein interaction databases and recent advances in RNA sequencing technologies have enabled routine analyses of intercellular signalling from gene expression measurements of bulk and single-cell data sets. In particular, ligand–receptor pairs can be used to infer intercellular communication from the coordinated expression of their cognate genes.</description>
+      <description>&lt;p&gt;Cell–cell interactions orchestrate organismal development, homeostasis and&#xA;single-cell functions. When cells do not properly interact or improperly&#xA;decode molecular messages, disease ensues. Thus, the identification and&#xA;quantification of intercellular signalling pathways has become a common&#xA;analysis performed across diverse disciplines. The expansion of protein–protein&#xA;interaction databases and recent advances in RNA sequencing technologies have&#xA;enabled routine analyses of intercellular signalling from gene expression&#xA;measurements of bulk and single-cell data sets. In particular, ligand–receptor&#xA;pairs can be used to infer intercellular communication from the coordinated&#xA;expression of their cognate genes. In this Review, we highlight discoveries&#xA;enabled by analyses of cell–cell interactions from transcriptomic data and&#xA;review the methods and tools used in this context.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cell-cell interactions and communication</title>
       <link>https://earmingol.github.io/projects/research/ccis/</link>
       <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://earmingol.github.io/projects/research/ccis/</guid>
-      <description>In multicellular organisms, high-order organizations of cells are defined by their cell-cell interactions (CCIs). Cells constantly sense their microenvironment and can trigger intracellular changes depending on the information that they receive. These communicatory processes allow single cells to coordinate their gene expression, which further enables the coordination of a collective behavior of cells. Thus, functions and phenotypes of multicellular organizations are orchestrated by their CCIs. The main focus of my research is on generating novel approaches to infer CCIs to help decipher how phenotypes are associated and how they depend on these processes.</description>
+      <description>&lt;p&gt;In multicellular organisms, high-order organizations of cells are defined by&#xA;their cell-cell interactions (CCIs). Cells constantly sense their&#xA;microenvironment and can trigger intracellular changes depending on the&#xA;information that they receive. These communicatory processes allow single&#xA;cells to coordinate their gene expression, which further enables the&#xA;coordination of a collective behavior of cells. Thus, functions and&#xA;phenotypes of multicellular organizations are orchestrated by their CCIs. The&#xA;main focus of my research is on generating novel approaches to infer CCIs to&#xA;help decipher how phenotypes are associated and how they depend on these&#xA;processes.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

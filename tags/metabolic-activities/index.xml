@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metabolic Activities on Erick Armingol</title>
+    <link>https://earmingol.github.io/tags/metabolic-activities/</link>
+    <description>Recent content in Metabolic Activities on Erick Armingol</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://earmingol.github.io/tags/metabolic-activities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metabolic activity from single‑cell and spatial transcriptomics with scCellFie</title>
+      <link>https://earmingol.github.io/projects/software/sccellfie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://earmingol.github.io/projects/software/sccellfie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/sccellfie/&#34;&gt;&lt;img src=&#34;https://badge.fury.io/py/sccellfie.svg&#34; alt=&#34;PyPI&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://codecov.io/gh/earmingol/scCellFie&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/earmingol/scCellFie/graph/badge.svg?token=22NENAKNKI&#34; alt=&#34;Codecov&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://pepy.tech/project/sccellfie&#34;&gt;&lt;img src=&#34;https://pepy.tech/badge/sccellfie/month&#34; alt=&#34;Downloads&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://opensource.org/licenses/MIT&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/License-MIT-yellow.svg&#34; alt=&#34;License: MIT&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;metabolic-activity-from-singlecell-and-spatial-transcriptomics-with-sccellfie&#34;&gt;Metabolic activity from single‑cell and spatial transcriptomics with &lt;strong&gt;scCellFie&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;scCellFie&lt;/strong&gt; is a Python‑based tool for analyzing metabolic activity at different resolutions, developed at the &lt;a href=&#34;https://ventolab.org/&#34;&gt;Vento Lab&lt;/a&gt;.&lt;br&gt;&#xA;It efficiently processes both single‑cell and spatial data to predict metabolic task activities.&lt;br&gt;&#xA;While its prediction strategy is inspired by &lt;a href=&#34;https://github.com/LewisLabUCSD/CellFie&#34;&gt;CellFie&lt;/a&gt; from the &lt;a href=&#34;https://lewislab.ucsd.edu/&#34;&gt;Lewis Lab&lt;/a&gt; (originally in MATLAB for bulk and small single‑cell datasets), &lt;strong&gt;scCellFie&lt;/strong&gt; adds multiple improvements such as marker selection, differential analysis, and cell‑cell communication inference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Atlas-scale metabolic activities inferred from single-cell and spatial transcriptomics</title>
+      <link>https://earmingol.github.io/publications/sccellfie/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://earmingol.github.io/publications/sccellfie/</guid>
+      <description>&lt;p&gt;Metabolism supplies energy, building blocks, and signaling molecules vital for&#xA;cell function and communication, but methods to directly measure it at single-cell&#xA;and/or spatial resolutions remain technically challenging and inaccessible for most&#xA;researchers. Single-cell and spatial transcriptomics offer high-throughput data alternatives&#xA;with a rich ecosystem of computational tools. Here, we present scCellFie, a computational&#xA;framework to infer metabolic activities from human and mouse transcriptomic data at&#xA;single-cell and spatial resolution. Applied to ∼30 million cell profiles, we generated&#xA;a comprehensive metabolic atlas across human organs, identifying organ– and&#xA;cell-type-specific activities. In the endometrium, scCellFie reveals metabolic&#xA;programs contributing to healthy tissue remodeling during the menstrual cycle, with&#xA;temporal patterns replicated in data from in vitro cultures. We also uncover&#xA;disease-associated metabolic alterations in endometriosis and endometrial carcinoma,&#xA;linked to proinflammatory macrophages, and metabolite-mediated epithelial cell&#xA;communication, respectively. Ultimately, scCellFie provides a scalable toolbox for&#xA;extracting interpretable metabolic functionalities from transcriptomic data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
