@@ -394,6 +394,7 @@
                             <option value="locrian">Locrian Mode</option>
                         </optgroup>
                         <optgroup label="Chord Progressions">
+                            <option value="powerChord">Power Chord (1-5-8)</option>
                             <option value="majorTriad">Major Triad (1-3-5)</option>
                             <option value="minorTriad">Minor Triad (1-b3-5)</option>
                             <option value="seventh">Dominant 7th (1-3-5-b7)</option>
@@ -411,7 +412,7 @@
                 </div>
                 
                 <div class="control-group full-width">
-                    <label>Custom Tuning (<span id="tuningLabel">6th→1st string</span>)</label>
+                    <label>Custom Tuning (<span id="tuningLabel">1st→6th string</span>)</label>
                     <div class="tuning-inputs">
                         <input type="text" id="string6" value="E" maxlength="3" title="6th string (thickest)">
                         <input type="text" id="string5" value="A" maxlength="3" title="5th string">
@@ -426,8 +427,9 @@
             <div class="action-buttons">
                 <button id="clearButton" class="clear-button">Clear All</button>
                 <button id="highlightRoots" class="highlight-button">Highlight Roots</button>
+                <button id="hideExtraRoots" class="highlight-button">Hide Extra Roots</button>
                 <button id="languageToggle" class="language-button">Español</button>
-                <button id="invertFretboard" class="invert-button">Invert Strings</button>
+                <button id="invertFretboard" class="invert-button">Notation View</button>
             </div>
         </div>
         
@@ -444,7 +446,7 @@
         <div class="legend">
             <div class="legend-item">
                 <div class="legend-color" style="background: #ff5252;"></div>
-                <span>Selected Note</span>
+                <span>Selected Note (Free Play)</span>
             </div>
             <div class="legend-item">
                 <div class="legend-color" style="background: #64b5f6;"></div>
@@ -452,11 +454,11 @@
             </div>
             <div class="legend-item">
                 <div class="legend-color" style="background: #ffeb3b;"></div>
-                <span>Root Note</span>
+                <span>Main Root Position</span>
             </div>
             <div class="legend-item">
                 <div class="legend-color" style="background: #4caf50;"></div>
-                <span>Octaves</span>
+                <span>Root Octaves (Free Play)</span>
             </div>
         </div>
     </div>
@@ -474,7 +476,8 @@
                 <li><strong>Select a scale</strong> to visualize its pattern from your selected root note</li>
                 <li><strong>Change tuning</strong> using presets or create your own custom tuning</li>
                 <li><strong>Toggle language</strong> between English and Spanish note names</li>
-                <li><strong>Invert strings</strong> to switch between standard and inverted fretboard views</li>
+                <li><strong>Switch views</strong> between tablature view (1st string on top) and notation view (6th string on top)</li>
+                <li><strong>Hide Extra Roots</strong> to show only the clicked root position as the main root, with other octaves displayed as regular scale notes</li>
             </ul>
             
             <h3>Understanding Scales</h3>
@@ -520,11 +523,18 @@
                 <li>Spanish: Do - Re - Mi - Fa - Sol - La - Si</li>
             </ul>
             
-            <h3>Fretboard Views</h3>
-            <p>Use "Invert Strings" to toggle between:</p>
+            <h3>Root Note Management</h3>
+            <p>When visualizing scales, you can control how root notes are displayed:</p>
             <ul>
-                <li><strong>Standard View:</strong> 6th string (low E) on top - traditional notation</li>
-                <li><strong>Inverted View:</strong> 1st string (high E) on top - tab notation</li>
+                <li><strong>Show All Roots:</strong> All positions of the root note are highlighted in yellow with a glow effect</li>
+                <li><strong>Hide Extra Roots:</strong> Only the clicked position shows as the main root (yellow). Other root positions are either shown as regular scale notes (blue) if they're part of the scale, or completely hidden if they're not part of the selected scale/mode/progression.</li>
+            </ul>
+            
+            <h3>Fretboard Views</h3>
+            <p>Use "Notation View" to toggle between:</p>
+            <ul>
+                <li><strong>Tablature View:</strong> 1st string (high E) on top - like guitar tabs</li>
+                <li><strong>Notation View:</strong> 6th string (low E) on top - like sheet music</li>
             </ul>
             
             <p style="margin-top: 30px; opacity: 0.8; text-align: center;">
@@ -574,6 +584,7 @@
             // Chord tones
             majorTriad: [0, 4, 7],
             minorTriad: [0, 3, 7],
+            powerChord: [0, 7, 12],
             seventh: [0, 4, 7, 10],
             maj7: [0, 4, 7, 11],
             min7: [0, 3, 7, 10],
@@ -618,7 +629,9 @@
         let selectedScale = 'none';
         let highlightRoots = false;
         let useSpanish = false;
-        let invertedView = false;
+        let invertedView = false; // false = tablature view (1st string on top), true = notation view (6th string on top)
+        let selectedPosition = null; // Store the specific clicked position {string, fret}
+        let hideExtraRoots = false;
         
         // Helper functions
         function normalizeNote(note) {
@@ -656,7 +669,16 @@
         }
         
         function getStringPosition(stringIndex) {
-            return invertedView ? (5 - stringIndex) : stringIndex;
+            // New behavior: 
+            // false (tablature view): 1st string (index 5) at top (position 0), 6th string (index 0) at bottom (position 5)
+            // true (notation view): 6th string (index 0) at top (position 0), 1st string (index 5) at bottom (position 5)
+            return invertedView ? stringIndex : (5 - stringIndex);
+        }
+        
+        function getStringLabel(stringIndex) {
+            // Get the proper string number label
+            const stringNumbers = ['6th', '5th', '4th', '3rd', '2nd', '1st'];
+            return stringNumbers[stringIndex];
         }
         
         // Drawing functions
@@ -712,7 +734,7 @@
             for (let string = 0; string < strings; string++) {
                 const displayPos = getStringPosition(string);
                 const y = marginTop + displayPos * stringHeight + stringHeight / 2;
-                const thickness = 1 + (string * 0.5);
+                const thickness = 1 + ((5 - string) * 0.5); // 6th string (index 0) is thickest, 1st string (index 5) is thinnest
                 
                 // String shadow
                 ctx.strokeStyle = 'rgba(0,0,0,0.5)';
@@ -744,16 +766,9 @@
                     const x = marginLeft + (fret - 0.5) * fretWidth;
                     
                     if (doubleMarkers.includes(fret)) {
-                        // Double dots - between strings 2-3 and 4-5 (from player's perspective)
-                        if (invertedView) {
-                            // Inverted: dots between visual positions 1.5 and 3.5
-                            drawInlay(x, marginTop + stringHeight * 1.5, 10);
-                            drawInlay(x, marginTop + stringHeight * 3.5, 10);
-                        } else {
-                            // Standard: dots between visual positions 1.5 and 3.5
-                            drawInlay(x, marginTop + stringHeight * 1.5, 10);
-                            drawInlay(x, marginTop + stringHeight * 3.5, 10);
-                        }
+                        // Double dots - centered around the fretboard middle
+                        drawInlay(x, marginTop + stringHeight * 2, 10);
+                        drawInlay(x, marginTop + stringHeight * 4, 10);
                     } else {
                         // Single dot - centered on fretboard
                         drawInlay(x, marginTop + strings * stringHeight / 2, 10);
@@ -792,10 +807,8 @@
                 
                 // String number
                 ctx.font = '12px Arial';
-                const stringNum = invertedView ? 
-                    (string === 0 ? '1st' : string === 5 ? '6th' : '') :
-                    (string === 0 ? '6th' : string === 5 ? '1st' : '');
-                ctx.fillText(stringNum, marginLeft - 35, y + 25);
+                const stringLabel = getStringLabel(string);
+                ctx.fillText(stringLabel, marginLeft - 35, y + 25);
             }
         }
         
@@ -831,22 +844,43 @@
                     let color = '#333';
                     let size = 16;
                     let isRoot = false;
+                    let isSelectedPosition = selectedPosition && 
+                        selectedPosition.string === string && selectedPosition.fret === fret;
                     
                     // Determine if and how to draw this note
                     if (selectedNote && note === selectedNote) {
-                        shouldDraw = true;
-                        color = '#ff5252';
-                        size = 18;
-                        
-                        // Check if it's the root of the current scale
+                        // This is a root note position
                         if (selectedScale !== 'none') {
-                            color = '#ffeb3b';
-                            size = 20;
-                            isRoot = true;
-                        } else if (highlightRoots) {
-                            color = '#4caf50';
+                            // We're viewing a scale/mode/progression
+                            if (isSelectedPosition) {
+                                // This is the originally clicked position - always show as main root
+                                shouldDraw = true;
+                                color = '#ffeb3b';
+                                size = 20;
+                                isRoot = true;
+                            } else if (hideExtraRoots) {
+                                // For other root positions, show as blue scale notes (since root is always part of its own scale)
+                                shouldDraw = true;
+                                color = '#64b5f6';
+                                size = 16;
+                            } else {
+                                // Normal behavior - show all roots as roots
+                                shouldDraw = true;
+                                color = '#ffeb3b';
+                                size = 20;
+                                isRoot = true;
+                            }
+                        } else {
+                            // No scale selected - free play mode
+                            shouldDraw = true;
+                            color = '#ff5252';
+                            size = 18;
+                            if (highlightRoots) {
+                                color = '#4caf50';
+                            }
                         }
-                    } else if (scaleNotes.includes(note) && note !== selectedNote) {
+                    } else if (scaleNotes.includes(note)) {
+                        // This is a non-root scale note
                         shouldDraw = true;
                         color = '#64b5f6';
                     }
@@ -929,6 +963,19 @@
             }
         }
         
+        function updateViewLabels() {
+            const tuningLabel = document.getElementById('tuningLabel');
+            const invertButton = document.getElementById('invertFretboard');
+            
+            if (invertedView) {
+                tuningLabel.textContent = '6th→1st string';
+                invertButton.textContent = 'Tablature View';
+            } else {
+                tuningLabel.textContent = '1st→6th string';
+                invertButton.textContent = 'Notation View';
+            }
+        }
+        
         // Event handlers
         canvas.addEventListener('click', (e) => {
             const rect = canvas.getBoundingClientRect();
@@ -947,10 +994,11 @@
             const visualStringPos = Math.floor((y - marginTop) / stringHeight);
             
             // Convert visual position to actual string index
-            const string = invertedView ? (5 - visualStringPos) : visualStringPos;
+            const string = invertedView ? visualStringPos : (5 - visualStringPos);
             
             if (fret >= 0 && fret <= frets && string >= 0 && string < strings) {
                 selectedNote = getNoteAt(string, fret);
+                selectedPosition = { string: string, fret: fret }; // Store the clicked position
                 
                 // Update info display
                 const noteDisplay = document.getElementById('selectedNote');
@@ -961,14 +1009,14 @@
                 noteDisplay.classList.add('pulse');
                 setTimeout(() => noteDisplay.classList.remove('pulse'), 500);
                 
-                const stringName = ['6th', '5th', '4th', '3rd', '2nd', '1st'][string];
+                const stringName = getStringLabel(string);
                 const positions = [];
                 
                 // Find all positions of this note
                 for (let s = 0; s < strings; s++) {
                     for (let f = 0; f <= frets; f++) {
                         if (getNoteAt(s, f) === selectedNote) {
-                            positions.push(`${['6th', '5th', '4th', '3rd', '2nd', '1st'][s]} string, fret ${f}`);
+                            positions.push(`${getStringLabel(s)} string, fret ${f}`);
                         }
                     }
                 }
@@ -1030,6 +1078,7 @@
         
         document.getElementById('clearButton').addEventListener('click', () => {
             selectedNote = null;
+            selectedPosition = null;
             selectedScale = 'none';
             document.getElementById('scaleSelect').value = 'none';
             document.getElementById('selectedNote').textContent = 'Click any fret to explore';
@@ -1045,6 +1094,13 @@
             draw();
         });
         
+        document.getElementById('hideExtraRoots').addEventListener('click', () => {
+            hideExtraRoots = !hideExtraRoots;
+            document.getElementById('hideExtraRoots').textContent = 
+                hideExtraRoots ? 'Show All Roots' : 'Hide Extra Roots';
+            draw();
+        });
+        
         document.getElementById('languageToggle').addEventListener('click', () => {
             useSpanish = !useSpanish;
             document.getElementById('languageToggle').textContent = useSpanish ? 'English' : 'Español';
@@ -1054,10 +1110,7 @@
         
         document.getElementById('invertFretboard').addEventListener('click', () => {
             invertedView = !invertedView;
-            document.getElementById('invertFretboard').textContent = 
-                invertedView ? 'Standard View' : 'Inverted View';
-            document.getElementById('tuningLabel').textContent = 
-                invertedView ? '1st→6th string' : '6th→1st string';
+            updateViewLabels();
             draw();
         });
         
@@ -1078,7 +1131,8 @@
             }
         };
         
-        // Initial draw
+        // Initial setup
+        updateViewLabels();
         draw();
     </script>
 </body>
